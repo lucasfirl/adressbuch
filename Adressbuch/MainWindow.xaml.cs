@@ -17,9 +17,6 @@ using System.IO;
 
 namespace Adressbuch
 {
-    /// <summary>
-    /// Interaktionslogik für MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         private List<User> userlist = new List<User>();
@@ -95,6 +92,7 @@ namespace Adressbuch
             if (currentRowIndex >= 0)
             {
                 userlist.RemoveAt(currentRowIndex);
+                editimage.Opacity = 0;
                 updateTable();
                 clearBoxes();
                 WriteXML();
