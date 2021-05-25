@@ -1,0 +1,39 @@
+﻿<Window x:Class="Adressbuch.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Adressbuch"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600" MinWidth="600" MinHeight="450">
+    <Grid MinWidth="592" MinHeight="419">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="textName" Height="19" Margin="93,22,187,0" TextWrapping="Wrap" VerticalAlignment="Top" MinWidth="312" TextChanged="text_TextChanged"/>
+        <TextBox x:Name="textMail" Height="19" Margin="93,50,187,0" TextWrapping="Wrap" VerticalAlignment="Top" MinWidth="312" TextChanged="text_TextChanged"/>
+        <TextBox x:Name="textTel" Height="19" Margin="93,78,187,0" TextWrapping="Wrap" VerticalAlignment="Top" MinWidth="312" TextChanged="text_TextChanged"/>
+        <TextBox x:Name="textAnsch" Height="19" Margin="93,106,187,0" TextWrapping="Wrap" VerticalAlignment="Top" MinWidth="312" TextChanged="text_TextChanged"/>
+        <Label Content="Name:" HorizontalAlignment="Left" Margin="10,18,0,0" VerticalAlignment="Top" Width="79" Height="26"/>
+        <Label Content="E-Mail:" HorizontalAlignment="Left" Margin="10,47,0,0" VerticalAlignment="Top" Width="79" Height="26"/>
+        <Label Content="Telefon:" HorizontalAlignment="Left" Margin="10,75,0,0" VerticalAlignment="Top" Width="79" Height="26"/>
+        <Label Content="Anschrift:" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top" Width="79" Height="26"/>
+        <Image HorizontalAlignment="Right" Height="97" Margin="0,24,93,0" VerticalAlignment="Top" Width="81" Source="add.png"/>
+        <Image HorizontalAlignment="Right" Height="97" Margin="0,24,8,0" VerticalAlignment="Top" Width="78" Source="del.png"/>
+        <DataGrid x:Name="dataGrid" Margin="0,166,0,0" IsReadOnly="True" AutoGenerateColumns="False" SelectionChanged="dataGrid_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Path=name}" Width="100"/>
+                <DataGridTextColumn Header="E-Mail" Binding="{Binding Path=email}" Width="150"/>
+                <DataGridTextColumn Header="Telefon" Binding="{Binding Path=tel}" Width="120"/>
+                <DataGridTextColumn Header="Anschrift" Binding="{Binding Path=anschrift}" Width="250"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="add" Content="add" HorizontalAlignment="Right" Height="97" Margin="0,24,93,0" VerticalAlignment="Top" Width="81" Click="Buttonadd_Click" Opacity="0"/>
+        <Button x:Name="delete" Content="del" HorizontalAlignment="Right" Height="97" Margin="0,24,8,0" VerticalAlignment="Top" Width="81" Click="Buttondel_Click" MinWidth="81" MinHeight="97" Opacity="0"/>
+        <Label Content="Suchen:" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top" Width="79" Height="26"/>
+        <TextBox x:Name="textSuche" Height="19" Margin="94,138,186,0" TextWrapping="Wrap" VerticalAlignment="Top" MinWidth="312" TextChanged="textSuche_TextChanged"/>
+        <Image x:Name="editimage" HorizontalAlignment="Right" Height="42" Margin="0,115,71,0" VerticalAlignment="Top" Width="45" Source="edit.png" Opacity="0"/>
+        <Button x:Name="edit" Content="Button" HorizontalAlignment="Right" Height="48" Margin="0,112,71,0" VerticalAlignment="Top" Width="45" Click="Buttonedit_Click" Opacity="0"/>
+    </Grid>
+</Window>
+ 

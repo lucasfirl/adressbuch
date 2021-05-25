@@ -1,0 +1,15 @@
+C:\Users\Larry\source\repos\Adressbuch\Adressbuch\bin\Debug\Adressbuch.exe.config
+C:\Users\Larry\source\repos\Adressbuch\Adressbuch\bin\Debug\Adressbuch.exe
+C:\Users\Larry\source\repos\Adressbuch\Adressbuch\bin\Debug\Adressbuch.pdb
+C:\Users\Larry\source\repos\Adressbuch\Adressbuch\obj\Debug\Adressbuch.csprojAssemblyReference.cache
+C:\Users\Larry\source\repos\Adressbuch\Adressbuch\obj\Debug\MainWindow.g.cs
+C:\Users\Larry\source\repos\Adressbuch\Adressbuch\obj\Debug\App.g.cs
+C:\Users\Larry\source\repos\Adressbuch\Adressbuch\obj\Debug\Adressbuch_MarkupCompile.cache
+C:\Users\Larry\source\repos\Adressbuch\Adressbuch\obj\Debug\Adressbuch_MarkupCompile.lref
+C:\Users\Larry\source\repos\Adressbuch\Adressbuch\obj\Debug\MainWindow.baml
+C:\Users\Larry\source\repos\Adressbuch\Adressbuch\obj\Debug\Adressbuch.g.resources
+C:\Users\Larry\source\repos\Adressbuch\Adressbuch\obj\Debug\Adressbuch.Properties.Resources.resources
+C:\Users\Larry\source\repos\Adressbuch\Adressbuch\obj\Debug\Adressbuch.csproj.GenerateResource.cache
+C:\Users\Larry\source\repos\Adressbuch\Adressbuch\obj\Debug\Adressbuch.csproj.CoreCompileInputs.cache
+C:\Users\Larry\source\repos\Adressbuch\Adressbuch\obj\Debug\Adressbuch.exe
+C:\Users\Larry\source\repos\Adressbuch\Adressbuch\obj\Debug\Adressbuch.pdb

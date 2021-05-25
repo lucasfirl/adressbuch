@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<ArrayOfUser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <User>
+    <name>ftzhjtfffff</name>
+    <email />
+    <tel />
+    <anschrift />
+  </User>
+  <User>
+    <name>ftzhjtfffff</name>
+    <email />
+    <tel />
+    <anschrift />
+  </User>
+  <User>
+    <name>tfg</name>
+    <email>tes</email>
+    <tel>t</tel>
+    <anschrift>tew</anschrift>
+  </User>
+  <User>
+    <name>tfg</name>
+    <email>tes</email>
+    <tel>t</tel>
+    <anschrift>tew</anschrift>
+  </User>
+  <User>
+    <name>l7zukjzuk</name>
+    <email>zukzuk</email>
+    <tel>zukzukzu</tel>
+    <anschrift>kzukzukzuk</anschrift>
+  </User>
+  <User>
+    <name>gerg</name>
+    <email>rger</email>
+    <tel>grge</tel>
+    <anschrift>gergerg</anschrift>
+  </User>
+</ArrayOfUser>
